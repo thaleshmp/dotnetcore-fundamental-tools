@@ -7,7 +7,7 @@ namespace FundamentalTools.Helpers.Enumerator
 {
     public static class EnumeratorExtensions
     {
-        public static string GetEnumDescription(this Enum value)
+        public static string GetDescription(this Enum value)
         {
             FieldInfo fi = value.GetType().GetField(value.ToString());
 
